@@ -33,22 +33,24 @@ I made this tool while studying computer architecture to help understand how MIP
 - `j`, `jal`
 
 ---
-## 🧪 Example
+## Example
 
 Here is a sample MIPS assembly code and what the output looks like in the app.
 
-### 🔡 Input (MIPS code written in the left panel):
+### Input:
 
-```asm
-main:
-  add $t0, $t1, $t2
-  sub $s1, $s2, $s3
-  andi $a0, $a1, 15
-  lw $t3, 4($t0)
-  beq $t1, $t2, main
-  j main
+add $t0, $t1, $t2
+sub $s1, $s2, $s3
+andi $a0, $a1, 15
 
-## How to Run
+### Output:
+
+Address        Machine Code 
+0x00400000     012A6020   
+0x00400004     0x02123022    
+0x00400008     0x3131000F    
+
+## How to Run:
 
 1. Make sure you have **Java (JDK 8 or later)** installed.
 2. Download or clone this project to your computer.
