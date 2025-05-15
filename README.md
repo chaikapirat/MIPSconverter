@@ -6,7 +6,7 @@ This is a Java application with a simple graphical interface (GUI) that converts
 
 I made this tool while studying computer architecture to help understand how MIPS assembly is translated into machine code.
 
----
+
 
 ## Features
 
@@ -16,7 +16,7 @@ I made this tool while studying computer architecture to help understand how MIP
 - Shows memory addresses starting from `0x00400000`
 - Simple and easy-to-use GUI built with Java Swing
 
----
+
 
 ## 🛠️ Supported Instructions
 
@@ -32,32 +32,32 @@ I made this tool while studying computer architecture to help understand how MIP
 ### J-Type:
 - `j`, `jal`
 
----
+
 ## Example
 
 Here is a sample MIPS assembly code and what the output looks like in the app.
 
 ### Input:
 
- add $t0, $t1, $t2
- sub $s1, $s2, $s3
- andi $a0, $a1, 15
+add $t0, $t1, $t2  
+sub $s1, $s2, $s3  
+andi $a0, $a1, 15
+
 
 ### Output:
 
 Address       | Machine Code  
 --------------|--------------
-0x00400000    | 0x012A6020    
-0x00400004    | 0x02123022    
-0x00400008    | 0x3131000F    
+0x00400000    | 012A4020    
+0x00400004    | 02538822    
+0x00400008    | 30A4000F    
 
 
-## How to Run:
+## How to Run
 
-1. Make sure you have **Java (JDK 8 or later)** installed.
-2. Download or clone this project to your computer.
-3. Open a terminal or command prompt in the project folder.
-4. Compile the Java file:
+1. Make sure you have **Java** installed.
+2. Download this project to your computer.
+3. Compile the Java file:
 
    ```bash
    javac MIPSConverterGUI.java
