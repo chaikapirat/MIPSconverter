@@ -39,16 +39,18 @@ Here is a sample MIPS assembly code and what the output looks like in the app.
 
 ### Input:
 
-- add $t0, $t1, $t2
-- sub $s1, $s2, $s3
-- andi $a0, $a1, 15
+ add $t0, $t1, $t2
+ sub $s1, $s2, $s3
+ andi $a0, $a1, 15
 
 ### Output:
 
-- Address        Machine Code 
-- 0x00400000     012A6020   
-- 0x00400004     0x02123022    
-- 0x00400008     0x3131000F    
+Address       | Machine Code  
+--------------|--------------
+0x00400000    | 0x012A6020    
+0x00400004    | 0x02123022    
+0x00400008    | 0x3131000F    
+
 
 ## How to Run:
 
